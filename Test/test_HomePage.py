@@ -27,7 +27,9 @@ class TestAccount(BaseClass):
         time.sleep(2)
         homepage.getAddToCart().click()
         homepage.getCart().click()
-        print(homepage.getText().text())
+        # print(homepage.getText().text())
+        print("git")
+        print("")
 
 
 
